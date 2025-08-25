@@ -1,7 +1,11 @@
 import { CoachingAI } from "@/components/CoachingAI";
 
 const Index = () => {
-  return <CoachingAI />;
+  return (
+    <div>
+      <CoachingAI />
+    </div>
+  );
 };
 
 export default Index;
